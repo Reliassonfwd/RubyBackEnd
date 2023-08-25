@@ -16,10 +16,6 @@ end
 puts ascii_translator(65)
 
 
-
-
-
-
 # method name: #common_sports
 # parameters: current_sports and favorite_sports (both arrays)
 # return value: an array containing items in both arrays
@@ -35,7 +31,6 @@ end
 current_sports = ["football", "basketball", "Taekwondo"]
 favorite_sports = ["Taekwondo", "football", "e-sports"]
 puts common_sports(current_sports,favorite_sports)
-
 
 
 # method name: #alphabetical_list
@@ -54,13 +49,9 @@ videogames = ["Valorant", "GTA5", "RDR", "Asassins Creed", "CSGO", "Valorant"]
 puts alphabetical_list(videogames)
 
 
-
-
-
 # method name: #lucky_number
 # parameter: number (an integer) with default value of 7
 # return value: a string "Today's lucky number is <number>"
-
 
 def lucky_number (number = 7) 
 
@@ -69,12 +60,6 @@ def lucky_number (number = 7)
 end
 
 puts lucky_number(17)
-
-
-
-
-
-
 
 
 # method name: #ascii_code
@@ -94,10 +79,6 @@ def ascii_code (character)
 end
 
 puts ascii_code("A")
-
-
-
-
 
 
 # method name: #pet_pun
@@ -121,15 +102,7 @@ else
 end
 end
 
-puts pet_pun("cat")
-
-    
-
-
-
-
-
-
+puts pet_pun("shark")
 
 
 # method name: #twenty_first_century?
